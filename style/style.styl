@@ -1,0 +1,50 @@
+body
+    margin 0
+    padding 0
+
+header
+    width 100%
+    height 100px
+    
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;   
+    background-color: rgb(223, 12, 12)
+
+    .wrapper
+        max-width 1300px
+        margin auto
+        display flex
+        align-items center 
+        justify-content: space-between
+        padding 0 10px
+        height: 100%
+        
+        &-logo
+            width 50px  
+            height 50px
+
+            img
+                width 100%
+                height 100%
+
+        &-hamburger
+            width 50px
+            height 35px
+            display flex
+            flex-direction column
+            justify-content space-between
+            cursor pointer
+            margin-right: 20px
+            
+            span
+                border: 2px solid black     
+                         
+    .nav
+        position absolute
+        left 50px
+        transform translateX(-50px) translateY(-100px)
+        z-index 10
+        background none
+
+        &-target
+            transform: ¨translateY()
+                
